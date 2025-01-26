@@ -58,16 +58,16 @@ class Car extends Vehicle {
 
     // Print details of the wheels
     console.log(
-      `Wheel 1: ${this.wheels[0].getDiameter} inch ${this.wheels[0].getTireBrand} tire.`
+      `Wheel 1: ${this.wheels[0].getDiameter} inch ${this.wheels[0].getTireBrand} brand tire.`
     );
     console.log(
-      `Wheel 2: ${this.wheels[1].getDiameter} inch ${this.wheels[1].getTireBrand} tire.`
+      `Wheel 2: ${this.wheels[1].getDiameter} inch ${this.wheels[1].getTireBrand} brand tire.`
     );
     console.log(
-      `Wheel 3: ${this.wheels[2].getDiameter} inch ${this.wheels[2].getTireBrand} tire.`
+      `Wheel 3: ${this.wheels[2].getDiameter} inch ${this.wheels[2].getTireBrand} brand tire.`
     );
     console.log(
-      `Wheel 4: ${this.wheels[3].getDiameter} inch ${this.wheels[3].getTireBrand} tire.`
+      `Wheel 4: ${this.wheels[3].getDiameter} inch ${this.wheels[3].getTireBrand} brand tire.`
     );
   }
 }
